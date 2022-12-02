@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}Kayıt {% endblock %}
+
+{% block content %}
+
+<section style="background-color: coral;height: 100vh; ">
+<div class="container" style="height: 100%;">
+ <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+<form action="" method="POST"> 
+    <label style="font-size: ;2rem" for="name">Ad</label> <br>
+    <input style="font-size: ;2rem" type="text" <br>
+    <label style="font-size: ;2rem" for="surname">Soy Ad</label> <br>
+    <input style="font-size: ;2rem" type="text" <br>
+    <label style="font-size: ;2rem" for="email">E-Mail</label> <br>
+    <input style="font-size: ;2rem" type="text" <br>
+    <label style="font-size: ;2rem" for="password">Şifre</label> <br>
+    <input style="font-size: ;2rem" type="password" <br> <br>
+    <button class="btn btn-primary" style="font-size: ;2rem" type="submit"> Kayıt Ol</button>
+    <a class="btn btn-primary" href="/">Anasayfa'ya dön</a>
+</form>
+</div>
+</div>   
+
+
+</section>
+
+
+{% endblock %}
